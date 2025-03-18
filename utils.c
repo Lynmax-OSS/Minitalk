@@ -21,3 +21,12 @@ void	Signal(int signo, void *handler, bool use_siginfo)
 		exit(EXIT_FAILURE);
 	}
 }
+
+void Kill(pid_t pid, int signo)
+{
+	if (kill(pid, signo) < 0)
+	{
+		ft_putstr_fd("Kill failed", 2);
+		exit(EXIT_FAILURE);
+	}
+}
