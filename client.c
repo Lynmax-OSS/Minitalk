@@ -1,6 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   client.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: keteo <keteo@student.42kl.edu.my>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/03/20 18:52:06 by keteo             #+#    #+#             */
+/*   Updated: 2025/03/20 18:52:06 by keteo            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "minitalk.h"
 
-volatile sig_atomic_t g_server = BUSY;
+volatile sig_atomic_t g_server;
+
+g_server = BUSY;
 
 void	end_handler(int signo)
 {
