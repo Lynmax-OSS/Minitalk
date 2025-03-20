@@ -4,12 +4,14 @@ volatile sig_atomic_t g_server = BUSY;
 
 void	end_handler(int signo)
 {
+	(void)signo;
 	write(STDOUT_FILENO, "ok!\n", 4);
 	exit(EXIT_SUCCESS);
 }
 
 void	ack_handler(int signo)
 {
+	(void)signo;
 	g_server = READY;
 }
 
