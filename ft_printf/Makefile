@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: keteo <keteo@student.42.fr>                +#+  +:+       +#+         #
+#    By: marvin <marvin@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/29 16:19:46 by keteo             #+#    #+#              #
-#    Updated: 2024/12/17 13:47:35 by keteo            ###   ########.fr        #
+#    Updated: 2025/03/20 16:50:36 by marvin           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 
-SRC = ./src/ft_numbers.c ./src/ft_words.c ./src/ft_printf.c
+SRC = ft_numbers.c ft_words.c ft_printf.c
 
 OBJ = $(SRC:.c=.o)
 

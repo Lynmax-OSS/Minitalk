@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_words.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: keteo <keteo@student.42.fr>                +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 14:39:45 by keteo             #+#    #+#             */
-/*   Updated: 2025/01/03 17:42:24 by keteo            ###   ########.fr       */
+/*   Updated: 2025/03/20 16:51:09 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/ft_printf.h"
+#include "ft_printf.h"
 
 void	ft_putchr_count(char c, int *count)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_numbers.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: keteo <keteo@student.42.fr>                +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 15:34:34 by keteo             #+#    #+#             */
-/*   Updated: 2024/12/18 16:40:12 by keteo            ###   ########.fr       */
+/*   Updated: 2025/03/20 18:50:42 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/ft_printf.h"
+#include "ft_printf.h"
 
 void	ft_putnbr_count(int nb, int *count)
 {

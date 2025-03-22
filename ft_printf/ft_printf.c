@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: keteo <keteo@student.42.fr>                +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 14:40:45 by keteo             #+#    #+#             */
-/*   Updated: 2025/01/09 16:51:44 by keteo            ###   ########.fr       */
+/*   Updated: 2025/03/20 16:51:02 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/ft_printf.h"
+#include "ft_printf.h"
 
 static void	ft_frmtchecker(char frmt, va_list *args, int *len, int *i)
 {
