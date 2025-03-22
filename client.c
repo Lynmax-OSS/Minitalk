@@ -12,9 +12,8 @@
 
 #include "minitalk.h"
 
-volatile sig_atomic_t g_server;
+volatile sig_atomic_t g_server = BUSY;
 
-g_server = BUSY;
 
 void	end_handler(int signo)
 {
